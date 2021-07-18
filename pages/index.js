@@ -1,12 +1,12 @@
-import Link from 'next/link'
+import Link from "next/link";
 
 export default function IndexPage() {
   return (
     <div>
-      Hello World.{' '}
+      After First Commit.{" "}
       <Link href="/about">
-        <a>About</a>
+        <a>About Page</a>
       </Link>
     </div>
-  )
+  );
 }
